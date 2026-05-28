@@ -1,0 +1,11 @@
+.gradle/
+build/
+run/
+out/
+*.iml
+.idea/
+.inspect/
+.external/
+*.log
+crash-reports/
+minecraft-exported-crash-info-*.zip

@@ -1,0 +1,51 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "mixinPriority": 900,
+  "package": "dev.greencat.shimmer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "BossBarHudAccessor",
+    "ClientConnectionMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "DrawContextAccessor",
+    "EntityRendererAccessor",
+    "EntityRendererMixin",
+    "HeldItemRendererMixin",
+    "InGameHudAccessor",
+    "InGameHudMixin",
+    "KeyBindAccessor",
+    "KeyboardMixin",
+    "LivingEntityRendererMixin",
+    "MinecraftAccessor",
+    "MinecraftClientMixin",
+    "MixinBossBarHUD",
+    "MixinCamera",
+    "MixinChatHud",
+    "MixinClickableWidget",
+    "MixinPlayerListHUD",
+    "MouseAccessor",
+    "ParticleAccessor",
+    "ParticleManagerMixin",
+    "PlayerListHudAccessor",
+    "ScreenMixin",
+    "SplashOverlayMixin",
+    "TelemetryManagerMixin",
+    "WorldRendererAccessor",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ChatCommandSignedC2SPacketMixin",
+    "ChatMessageC2SPacketMixin",
+    "CommandExecutionC2SPacketMixin",
+    "LivingEntityMixin",
+    "MixinDataTracker",
+    "PlayerMoveC2SPacketAccessor",
+    "TextVisitFactoryMixin"
+  ],
+  "refmap": "Shimmer-Noble-refmap.json"
+}
